@@ -299,3 +299,32 @@ right: 0;
   width: 95px;
   height:  95px;
 }
+
+/* Pandemic Heroes*/
+
+.pandemic-heroes {
+  position: absolute;
+  bottom: 0.5%;
+  left: 0;
+  z-index: 2;
+  background-color: #c2d4d7;
+  padding: 0 6px;
+}
+
+
+.pandemic-heroes a{
+  font-family:   "Roboto Condensed",sans-serif;
+  line-height: 20px;
+  font-size: 13px;
+  color: #333;
+  text-transform: uppercase;
+
+
+}
+
+.pandemic-title a{
+    font-family:   "Roboto Condensed",sans-serif;
+    color: rgba(3,3,3,.5);
+    font-size: 16px;
+    line-height: 19px;
+}
