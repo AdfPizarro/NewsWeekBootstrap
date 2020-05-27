@@ -68,3 +68,44 @@ nav{
 .advice-important{
   color: #f72210;
 }
+
+.story{
+  margin-top: 20px;
+  padding: 0px 15px;
+}
+
+.story img{
+  width: 100%;
+}
+
+.story-title{
+  color: rgba(3,3,3,.4);
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 11px;
+}
+
+.category{
+  text-transform: uppercase;
+  padding: 8px 15px 9px;
+  background-color: rgba(255,255,255,.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.img-container{
+  position: relative;
+  z-index: 1;
+}
+
+.category a{
+  color: #f72210;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 17px;
+  line-height: 16px;
+  font-weight: bold;
+}
