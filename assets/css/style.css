@@ -1,5 +1,13 @@
 /*   Nav   /*/
 
+body{
+  background-color: #f4f5f6;
+}
+
+bg-white{
+  background-color: white;
+}
+
 nav{
   background: #555;
   padding: 15px;
@@ -49,6 +57,10 @@ nav{
 
 /*   Stories   /*/
 
+.story-top{
+    padding-left: 15px;
+}
+
 .advice-container{
   border-bottom: 1px solid #f4f5f6;
 }
@@ -70,21 +82,22 @@ nav{
 }
 
 .story{
-  margin-top: 20px;
-  padding: 0px 15px;
+  padding: 0 15px 20px 15px;
+  border-bottom: 1px solid #f4f5f6;
 }
 
 .story img{
   width: 100%;
 }
 
-.story-title{
+.story-top{
   color: rgba(3,3,3,.4);
   text-transform: uppercase;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 16px;
   line-height: 16px;
   margin-bottom: 11px;
+  padding-top: 20px;
 }
 
 .category{
@@ -100,6 +113,7 @@ nav{
 .img-container{
   position: relative;
   z-index: 1;
+  margin-bottom: 10px;
 }
 
 .category a{
@@ -109,3 +123,27 @@ nav{
   line-height: 16px;
   font-weight: bold;
 }
+
+.story-title a{
+  font-family: "Roboto Condensed",sans-serif;
+  color: black;
+  font-size: 22px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+
+
+.story-title a:hover{
+  text-decoration: underline #f72210;
+}
+
+.summary{
+  margin-top: 10px;
+  color: #333;
+  font-size: 13px;
+  line-height: 18px;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+/* Featured stories */
