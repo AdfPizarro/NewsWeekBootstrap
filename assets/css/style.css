@@ -1,4 +1,4 @@
-
+/*   Nav   /*/
 
 nav{
   background: #555;
@@ -8,18 +8,32 @@ nav{
   height: 50px;
 }
 
+
+
 .logo {
   height: 20.5px;
   fill: white;
 }
 
 .user{
+  margin-right: 10px;
+  height: 30px;
 
 }
+
+
+.list{
+  height: 20px;
+    margin-left: 15px;
+}
+
+
 
 .n-links{
-  height: 20px;
+  height: 30px;
+  align-items: center;
 }
+
 
 .trial{
   border: none;
@@ -30,4 +44,27 @@ nav{
   font-size: 13px;
   line-height: 20px;
   font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+}
+
+/*   Stories   /*/
+
+.advice-container{
+  border-bottom: 1px solid #f4f5f6;
+}
+
+ .advice{
+   font-family: 'Roboto', sans-serif;
+   font-size: 14px;
+   font-weight: 300;
+   color: black;
+   text-align: center;
+   padding: 15px 12px;
+   line-height: 17px;
+}
+
+
+
+.advice-important{
+  color: #f72210;
 }
