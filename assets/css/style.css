@@ -19,6 +19,9 @@ nav{
   justify-content: space-between;
   align-items: center;
   height: 50px;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
 }
 
 
@@ -157,7 +160,9 @@ nav{
 
 .featured-stories,
 .debate,
-.more-container{
+.more-container,
+.heroes-container,
+.magazine-container{
   margin-top: 20px;
 }
 
@@ -344,12 +349,14 @@ right: 0;
 
 .icon-container{
   background: #f72210;
+  width: 29px;
   min-width: 29px;
   height: 28px;
   margin-right: 10px;
 }
 
-.promo{
+.promo,
+.magazine-title{
   font-family:   "Roboto Condensed",sans-serif;
   font-size: 19px;
   line-height: 19px;
@@ -386,4 +393,9 @@ right: 0;
   background: url("../images/sign-button.svg") center/108px no-repeat #f61602;
   border-radius: 3px;
   height: 32px;
+}
+
+.magazine-header{
+  padding-top: 20px;
+  justify-content: center;
 }
