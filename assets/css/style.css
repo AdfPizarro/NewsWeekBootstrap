@@ -398,4 +398,29 @@ right: 0;
 .magazine-header{
   padding-top: 20px;
   justify-content: center;
+  margin-bottom: 10px;
+}
+
+/* Magazine */
+
+.magazine-container{
+  padding: 0px 15px;
+  position: relative;
+}
+
+.magazine-img-container img{
+    width: 100%;
+}
+
+.magazine-corner a{
+  bottom: 0%;
+  left: 3%;
+  z-index: 2;
+  position: absolute;
+  color: #f72210;
+  background-color: rgba(255,255,255,.9);
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  line-height: 33px;
+  padding: 0 10px;
 }
