@@ -206,7 +206,8 @@ nav{
   text-transform: uppercase;
 }
 
-.by-name{
+.by-name,
+.opinion-by{
   color: black;
   font-family: "Roboto Condensed",sans-serif;
 }
@@ -246,7 +247,30 @@ right: 0;
   background-color: #000;
   color: #d6d6d6;
   border-radius: 50%;
-  font: bold 14px/32px "Roboto Condensed",sans-serif;
+  font-family:   "Roboto Condensed",sans-serif;
+  line-height: 32px;
+  font-size: 14px;
   text-align: center;
   margin: 6px auto;
+}
+
+/* Opinion */
+
+.opinion-element{
+  padding: 10px 15px;
+
+  border-bottom: 1px solid #ddd;
+}
+
+.opinion-info{
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.opinion-by{
+  font-size: 14px;
+  line-height: 21px;
+  color: #555;
+  text-transform: uppercase;
+  margin-top: 4px;
 }
