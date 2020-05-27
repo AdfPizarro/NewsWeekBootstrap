@@ -424,3 +424,27 @@ right: 0;
   line-height: 33px;
   padding: 0 10px;
 }
+
+.all-features{
+
+  font: bold 18px/18px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+}
+
+.features-container{
+  justify-content: center;
+}
+
+.features-container a{
+  text-align: center;
+  padding: 10px 10px 10px 12px;
+  height: 100%;
+  width: 100%;
+  color: black;
+
+}
+
+.features-container a:hover{
+  text-decoration: none;
+  background-color: #f4f5f6;
+}
