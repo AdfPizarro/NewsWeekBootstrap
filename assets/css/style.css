@@ -67,6 +67,7 @@ nav{
 
 .story-top{
     padding-left: 15px;
+
 }
 
 .advice-container{
@@ -91,7 +92,7 @@ nav{
 }
 
 .story{
-  padding: 0 15px 20px 15px;
+  padding-bottom: 15px;
   border-bottom: 1px solid #f4f5f6;
 }
 
@@ -163,8 +164,10 @@ nav{
 .debate,
 .more-container,
 .heroes-container,
-.magazine-container{
+.magazine-container,
+.top-story{
   margin-top: 20px;
+  padding: 0px 15px;
 }
 
 /* Debate */
@@ -362,7 +365,7 @@ right: 0;
   font-size: 19px;
   line-height: 19px;
   text-transform: uppercase;
-  margin-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 .sign-t-container{
@@ -493,4 +496,9 @@ right: 0;
   font-size: 16px;
   line-height:  16px;
   text-transform: none;
+}
+
+.editors-header{
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 12px;
 }
