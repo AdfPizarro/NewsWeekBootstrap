@@ -70,11 +70,11 @@ nav{
 }
 
 .advice-container{
+  padding-top: 50px;
   border-bottom: 1px solid #f4f5f6;
 }
 
  .advice{
-   font-family: 'Roboto', sans-serif;
    font-size: 14px;
    font-weight: 300;
    color: black;
@@ -86,6 +86,7 @@ nav{
 
 
 .advice-important{
+    margin-top: 50px;
   color: #f72210;
 }
 
@@ -423,6 +424,7 @@ right: 0;
   font-size: 16px;
   line-height: 33px;
   padding: 0 10px;
+  text-transform: uppercase;
 }
 
 .all-features{
@@ -447,4 +449,41 @@ right: 0;
 .features-container a:hover{
   text-decoration: none;
   background-color: #f4f5f6;
+}
+
+.magazine-element img{
+  width: 100%
+}
+
+.magazine-element{
+
+  margin-bottom: 15px;
+}
+
+.orange {
+  background-color: #f72210;
+  color: white;
+}
+
+.white{
+  color: #f72210;;
+}
+
+.tag{
+  font-family: "Roboto Condensed",sans-serif;
+  font-size: 16px;
+  line-height:  26px;
+  text-transform: uppercase;
+  padding: 0 7px;
+}
+
+.magazine-tags{
+  margin: 10px 0px;
+}
+
+.magazine-title{
+  font-family: "Roboto Condensed",sans-serif;
+  font-size: 16px;
+  line-height:  16px;
+  text-transform: none;
 }
