@@ -599,3 +599,22 @@ right: 0;
   top: 15px;
   background: none;
 }
+
+.subscribe-info {
+  flex-direction: column;
+  align-items: center;
+  font: 300 15px/21px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-bottom: 20px;
+  background-color: #f4f5f6;
+}
+
+.subscribe-button{
+margin-top: 20px;
+font: bold 18px/18px "Roboto Condensed",sans-serif;
+cursor: pointer;
+background-color: #f72310;
+color: white;
+text-transform: uppercase;
+display: inline-block;
+padding: 10px 10px 10px 12px;
+border-radius: 3px;}
