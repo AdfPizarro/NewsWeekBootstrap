@@ -396,7 +396,8 @@ right: 0;
   height: 32px;
 }
 
-.magazine-header{
+.magazine-header,
+.editors-header{
   padding-top: 20px;
   justify-content: center;
   margin-bottom: 10px;
@@ -404,7 +405,8 @@ right: 0;
 
 /* Magazine */
 
-.magazine-container{
+.magazine-container,
+.editors-pick-container{
   padding: 0px 15px;
   position: relative;
 }
@@ -413,9 +415,13 @@ right: 0;
     width: 100%;
 }
 
+.magazine-img-container{
+  position: relative;
+}
+
 .magazine-corner a{
   bottom: 0%;
-  left: 3%;
+  left: 0%;
   z-index: 2;
   position: absolute;
   color: #f72210;
@@ -481,7 +487,8 @@ right: 0;
   margin: 10px 0px;
 }
 
-.magazine-title{
+.magazine-title,
+.editors-title{
   font-family: "Roboto Condensed",sans-serif;
   font-size: 16px;
   line-height:  16px;
