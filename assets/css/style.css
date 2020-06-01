@@ -166,7 +166,8 @@ nav{
 .heroes-container,
 .magazine-container,
 .top-story,
-.section-top-articles{
+.section-top-articles,
+.subscribe{
   margin-top: 20px;
   padding: 0px 15px;
 }
@@ -564,4 +565,36 @@ right: 0;
 
 .small-last{
   padding-bottom: 30px;
+}
+
+.subscribe-title{
+  color: #f72210;
+  font: bold 16px/16px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.subscribe-inner{
+  background-color: #f4f5f6;
+  padding: 24px 20px 20px;
+  align-content: center;
+  justify-content: center;
+
+}
+
+.subscribe-img-container{
+  position: relative;
+  width: 260px;
+
+}
+
+.img1{
+  position: absolute;
+}
+
+.img2{
+  position: absolute;
+  right: 0;
+  top: 10px;
 }
