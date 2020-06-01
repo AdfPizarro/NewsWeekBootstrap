@@ -167,7 +167,8 @@ nav{
 .magazine-container,
 .top-story,
 .section-top-articles,
-.subscribe{
+.subscribe,
+.newsletter-container{
   margin-top: 20px;
   padding: 0px 15px;
 }
@@ -567,7 +568,12 @@ right: 0;
   padding-bottom: 30px;
 }
 
-.subscribe-title{
+.subscribe{
+  padding-bottom: 10px;
+}
+
+.subscribe-title,
+.newsletter-title{
   color: #f72210;
   font: bold 16px/16px "Roboto Condensed",sans-serif;
   text-transform: uppercase;
@@ -600,7 +606,8 @@ right: 0;
   background: none;
 }
 
-.subscribe-info {
+.subscribe-info,
+.news-content-info {
   flex-direction: column;
   align-items: center;
   font: 300 15px/21px "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -608,7 +615,7 @@ right: 0;
   background-color: #f4f5f6;
 }
 
-.subscribe-button{
+.subscribe-button {
 margin-top: 20px;
 font: bold 18px/18px "Roboto Condensed",sans-serif;
 cursor: pointer;
@@ -617,4 +624,32 @@ color: white;
 text-transform: uppercase;
 display: inline-block;
 padding: 10px 10px 10px 12px;
-border-radius: 3px;}
+border-radius: 3px;
+margin-bottom: 15px;
+}
+
+.news-inner-container{
+  border: 1px solid #ebebeb;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+
+.news-content-title h4{
+  color: black;
+  font-family: "Roboto Condensed",sans-serif;
+  font-size: 20px;
+}
+
+.news-content-info{
+  margin-top: 15px;
+  background:none;
+
+}
+
+.sign-newsletter,
+.sign-b-newsletter{
+  width: 100%;
+}
