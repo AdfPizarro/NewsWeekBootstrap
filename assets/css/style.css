@@ -594,7 +594,8 @@ right: 0;
 }
 
 .img2{
-  position: absolute;
-  right: 0;
-  top: 10px;
+  position: relative;
+  left: 90px;
+  top: 15px;
+  background: none;
 }
