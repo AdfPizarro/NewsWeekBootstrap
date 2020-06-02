@@ -4,6 +4,10 @@ body{
   background-color: #f4f5f6;
 }
 
+.row {
+  padding: 0px 15px;
+}
+
 bg-white{
   background-color: white;
 }
@@ -65,10 +69,6 @@ nav{
 
 /*   Stories   /*/
 
-.story-top{
-    padding-left: 15px;
-
-}
 
 .advice-container{
   padding-top: 50px;
