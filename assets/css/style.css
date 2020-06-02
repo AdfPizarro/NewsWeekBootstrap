@@ -168,7 +168,8 @@ nav{
 .top-story,
 .section-top-articles,
 .subscribe,
-.newsletter-container{
+.newsletter-container,
+footer{
   margin-top: 20px;
   padding: 0px 15px;
 }
