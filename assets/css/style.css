@@ -552,7 +552,8 @@ right: 0;
 }
 
 .small-element img{
-  width: 95px;
+  max-width: 95px;
+  min-width: 95px;
   margin-right: 15px;
 }
 
