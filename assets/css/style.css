@@ -70,6 +70,19 @@ nav{
   font-weight: bold;
 }
 
+.md-trial{
+  font-size: 18px;
+  line-height: 27px;
+  padding-left: 9px;
+  padding-right: 9px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  background: none;
+}
+
+.trial-2{
+  background: black;
+}
 /*   Stories   /*/
 
 
