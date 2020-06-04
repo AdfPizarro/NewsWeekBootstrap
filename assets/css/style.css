@@ -741,7 +741,9 @@ footer ul{
   font-family: "Roboto Condensed",sans-serif;
 }
 
-
+.logo-cr{
+  flex-direction: column;
+}
 
 @media (min-width: 768px){
   .featured-stories,
@@ -793,5 +795,10 @@ footer ul{
 
   .news-content-title h4{
     font-size: 24px;
+  }
+  .footer-top{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 }
