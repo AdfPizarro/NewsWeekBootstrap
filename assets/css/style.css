@@ -728,10 +728,7 @@ footer ul{
   margin-top: 10px;
 }
 
-.sticky{
-  position: sticky;
-  top: 40px;
-}
+
 
 .sign-container{
   margin-top: 20px;
@@ -744,6 +741,8 @@ footer ul{
   font-family: "Roboto Condensed",sans-serif;
 }
 
+
+
 @media (min-width: 768px){
   .featured-stories,
   .top-story,
@@ -752,6 +751,11 @@ footer ul{
   .debate,
   .magazine-container{
     margin-top: 0px;
+  }
+
+  .sticky{
+    position: sticky;
+    top: 40px;
   }
 
   .subscribe-container{
@@ -763,5 +767,12 @@ footer ul{
 
   .subscribe-info{
     align-items: flex-start;
+  }
+
+  .newsletter-img{
+    background: url("../images/newsletter.png") no-repeat scroll center center / cover;
+    width: 191px;
+    max-width: 191px;
+    height: 233px;
   }
 }
