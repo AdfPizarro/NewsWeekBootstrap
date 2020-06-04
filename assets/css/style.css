@@ -737,6 +737,13 @@ footer ul{
   margin-top: 20px;
 }
 
+.subscribe-info-title{
+  line-height: 28px;
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-family: "Roboto Condensed",sans-serif;
+}
+
 @media (min-width: 768px){
   .featured-stories,
   .top-story,
@@ -745,5 +752,16 @@ footer ul{
   .debate,
   .magazine-container{
     margin-top: 0px;
+  }
+
+  .subscribe-container{
+    display: flex;
+    padding:30px;
+    align-items: center;
+    background-color: #f4f5f6;
+  }
+
+  .subscribe-info{
+    align-items: flex-start;
   }
 }
