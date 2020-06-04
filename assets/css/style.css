@@ -727,19 +727,22 @@ footer ul{
   margin-top: 10px;
 }
 
-
 .sticky{
   position: sticky;
   top: 40px;
 }
 
+.sign-container{
+  margin-top: 20px;
+}
 
 @media (min-width: 768px){
   .featured-stories,
   .top-story,
   .heroes-container,
   .more-container,
-  .debate{
+  .debate,
+  .magazine-container{
     margin-top: 0px;
   }
 }
