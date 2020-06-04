@@ -726,3 +726,20 @@ footer ul{
   margin-right:6px;
   margin-top: 10px;
 }
+
+
+.sticky{
+  position: sticky;
+  top: 40px;
+}
+
+
+@media (min-width: 768px){
+  .featured-stories,
+  .top-story,
+  .heroes-container,
+  .more-container,
+  .debate{
+    margin-top: 0px;
+  }
+}
