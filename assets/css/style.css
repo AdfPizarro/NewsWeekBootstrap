@@ -815,3 +815,61 @@ footer ul{
     align-items: center;
   }
 }
+
+@media (min-width: 992px){
+  .logo{
+    height: 60px;
+  }
+
+  nav{
+    background: #555;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 95px;
+    width: 100%;
+    position: relative;
+    z-index: 99;
+    padding: 20px 10px 15px;
+
+  }
+
+  .list{
+    display: none;
+  }
+
+  .weather-top img{
+    width: 24px;
+    height: 24px;
+  }
+
+  .weather{
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+
+  }
+
+  .weather-top{
+    font-size: 15px;
+    line-height: 24px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: white;
+  }
+
+  .date{
+    font: 16px/34px 'Arial',Helvetica,sans-serif;
+    color: white;
+    display: block;
+    padding-bottom: 7px;
+  }
+
+  .featured-stories{
+    margin-top: 0px;
+  }
+
+  .n-links{
+    margin-right: 14px;
+  }
+}
