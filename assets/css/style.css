@@ -779,7 +779,8 @@ footer ul{
   .debate,
   .magazine-container,
   .newsletter-container,
-  .subscribe{
+  .subscribe,
+   footer{
     margin-top: 0px;
   }
 
@@ -927,4 +928,9 @@ width: 66px;
   .n-links{
     margin-right: 14px;
   }
+
+  .newsletter-img{
+    min-width:   191px;
+    min-height: 343px;
+
 }
